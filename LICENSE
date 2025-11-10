@@ -3,44 +3,31 @@ MIT License Hamburg PersoBot
 
 Copyright (c) 2025 Hamburg PersoBot Development
 
-Hiermit wird unentgeltlich jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis erteilt, mit der Software uneingeschränkt zu verfahren, einschließlich und ohne Einschränkung des Rechts, sie zu verwenden, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder Kopien der Software zu verkaufen, **unter den folgenden Bedingungen**:
+Hiermit wird unentgeltlich jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis erteilt, mit der Software uneingeschränkt zu verfahren, einschließlich und ohne Einschränkung des Rechts, sie zu verwenden, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu vertreiben, zu unterlizenzieren und/oder Kopien der Software zu verkaufen, unter den folgenden Bedingungen:
 
----
+1. Eigentum & Veröffentlichung  
+   Dieses GitHub-Repository und der darin enthaltene Code bleiben Eigentum des ursprünglichen Entwicklers (Hamburg PersoBot Development).  
+   Es ist nicht gestattet, das Repository oder wesentliche Teile davon selbst erneut zu veröffentlichen, zu "rebranden" oder als eigenes Projekt auszugeben.  
+   Forks zu Lern- oder Entwicklungszwecken sind erlaubt, dürfen jedoch nicht öffentlich oder kommerziell weiterverbreitet werden.
 
-### 1. Eigentum & Veröffentlichung
-- Dieses GitHub-Repository und der darin enthaltene Code bleiben Eigentum des ursprünglichen Entwicklers („Hamburg PersoBot Development“).  
-- Es ist **nicht gestattet**, das Repository oder wesentliche Teile davon **selbst erneut zu veröffentlichen**, zu „rebranden“ oder als eigenes Projekt auszugeben.  
-- Forks zu Lern- oder Entwicklungszwecken sind erlaubt, dürfen jedoch **nicht öffentlich oder kommerziell weiterverbreitet** werden.
+2. Nutzung & Hosting  
+   Wenn Sie den Bot auf einem eigenen Server hosten, erklären Sie sich damit einverstanden, dass der Bot:  
+   - Zugriff auf die Server-IP und grundlegende Statusinformationen (z. B. Bot-Version, Fehlerberichte) hat,  
+   - diese Daten ausschließlich zur technischen Verbesserung und Update-Kompatibilität verwendet.  
+   Diese Informationen dienen ausschließlich dazu, Updates und Support bereitzustellen, damit der Bot für alle Nutzer stabil und aktuell bleibt.
 
----
+3. Updates & Support  
+   Das Entwicklungsteam (Hamburg PersoBot Development) behält sich das Recht vor, automatische oder manuelle Updates bereitzustellen.  
+   Durch die Nutzung erklären Sie sich einverstanden, dass Updates den Code oder die Funktionen des Bots verändern dürfen, um Sicherheit und Stabilität zu gewährleisten.
 
-### 2. Nutzung & Hosting
-- Wenn Sie den Bot auf einem eigenen Server hosten, erklären Sie sich damit einverstanden, dass der Bot:
-  - Zugriff auf die **Server-IP** und grundlegende **Statusinformationen** (z. B. Bot-Version, Fehlerberichte) hat,  
-  - diese Daten **ausschließlich zur technischen Verbesserung und Update-Kompatibilität** verwendet.
-- Diese Informationen dienen ausschließlich dazu, **Updates und Support** bereitzustellen, damit der Bot für alle Nutzer stabil und aktuell bleibt.
+4. Haftungsausschluss  
+   DIE SOFTWARE WIRD OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE BEREITGESTELLT,  
+   EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER MARKTFÄHIGKEIT,  
+   DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG.  
+   IN KEINEM FALL SIND DIE AUTOREN ODER COPYRIGHTINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE  
+   HAFTUNGEN VERANTWORTLICH, SEI ES AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG,  
+   DIE AUS DER SOFTWARE ODER DER NUTZUNG DER SOFTWARE ENTSTEHEN.
 
----
-
-### 3. Updates & Support
-- Das Entwicklungsteam („Hamburg PersoBot Development“) behält sich das Recht vor, automatische oder manuelle Updates bereitzustellen.  
-- Durch die Nutzung erklären Sie sich einverstanden, dass Updates den Code oder die Funktionen des Bots verändern dürfen, um Sicherheit und Stabilität zu gewährleisten.
-
----
-
-### 4. Haftungsausschluss
-DIE SOFTWARE WIRD OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE BEREITGESTELLT,  
-EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER MARKTFÄHIGKEIT,  
-DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG.
-
-IN KEINEM FALL SIND DIE AUTOREN ODER COPYRIGHTINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE  
-HAFTUNGEN VERANTWORTLICH, SEI ES AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG,  
-DIE AUS DER SOFTWARE ODER DER NUTZUNG DER SOFTWARE ENTSTEHEN.
-
----
-
-**Kurz gesagt:**  
-Du darfst den Bot benutzen, anpassen und hosten, aber **nicht erneut veröffentlichen oder als dein eigenes Projekt ausgeben**.  
+Kurz gesagt:  
+Du darfst den Bot benutzen, anpassen und hosten, aber nicht erneut veröffentlichen oder als dein eigenes Projekt ausgeben.  
 Wenn du ihn hostest, erklärst du dich damit einverstanden, dass wir technische Daten empfangen dürfen, um Support und Updates bereitzustellen.
-
---------------------------------------------
