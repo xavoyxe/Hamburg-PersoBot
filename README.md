@@ -1,7 +1,9 @@
 # 🪪 Hamburg PersoBot
 
-**Hamburg PersoBot** ist ein Open-Source-Discord-Bot, mit dem Benutzer digitale Ausweise erstellen, ansehen, löschen und verwalten können.  
-Der Bot enthält ein System zur Prüfung und Annahme von Ausweisen sowie eine interne Datenbank zur Speicherung aller akzeptierten Ausweise.
+Hamburg PersoBot ist ein Open-Source-Discord-Bot, geschrieben in **Python** mit der Bibliothek **discord.py**.  
+Er ermöglicht es, digitale Ausweise zu erstellen, anzusehen, zu löschen und zu verwalten.  
+Ein integriertes Annahmesystem erlaubt es Moderatoren, Ausweise zu prüfen und zu genehmigen.  
+Alle Aktionen werden automatisch im Log-Ordner gespeichert.
 
 ---
 
@@ -9,29 +11,35 @@ Der Bot enthält ein System zur Prüfung und Annahme von Ausweisen sowie eine in
 
 ### 🔹 Ausweise
 - **Ausweis erstellen:**  
-  Benutzer können einen **offiziellen** oder **gefälschten** Ausweis erstellen.  
-  Der Bot führt den Benutzer dabei interaktiv durch den Erstellungsprozess.
+  Benutzer können offizielle oder gefälschte Ausweise erstellen.  
+  Der Bot führt sie dabei Schritt für Schritt durch den Vorgang.
 
 - **Ausweis ansehen:**  
-  Benutzer können ihren eigenen Ausweis oder den eines anderen Nutzers anzeigen lassen.
+  Benutzer können ihren eigenen oder den eines anderen Nutzers einsehen.
 
 - **Ausweis löschen:**  
-  Benutzer oder Admins können Ausweise aus dem System entfernen.
+  Benutzer oder Administratoren können Ausweise dauerhaft entfernen.
 
 ---
 
 ### 🔹 Annahmesystem
-- Jeder erstellte Ausweis muss von einem **Annahme-Kanal** geprüft werden.  
-- Ein **Prüfer** (z. B. Moderator oder Beamter) kann dort den Ausweis:
-  - ✅ **Annehmen** – Der Ausweis wird in der Datenbank gespeichert.  
-  - ❌ **Ablehnen** – Der Ausweis wird verworfen und gelöscht.  
+- Jeder erstellte Ausweis muss von einem Moderator im Annahme-Kanal überprüft werden.  
+- Der Moderator kann den Ausweis:
+  - ✅ **Annehmen** – er wird in die Datenbank eingetragen.  
+  - ❌ **Ablehnen** – er wird gelöscht.
 
 ---
 
 ### 🔹 Datenbank
-- Alle **angenommenen Ausweise** werden sicher in einer Datenbank gespeichert.  
-- Zugriff nur für autorisierte Nutzer oder Admins.  
-- Datenbank kann zur Analyse oder Verwaltung exportiert werden.
+- Alle angenommenen Ausweise werden sicher in einer Datenbank gespeichert.  
+- Nur autorisierte Personen haben Zugriff darauf.  
+- Export oder Löschung sind nur durch Administratoren möglich.
+
+---
+
+### 🔹 Logs
+- Alle Aktionen (Erstellung, Annahme, Löschung usw.) werden automatisch im **Ordner `/logs`** gespeichert.  
+- Es gibt **keinen Befehl**, um Logs im Chat anzuzeigen.  
 
 ---
 
@@ -42,39 +50,38 @@ Der Bot enthält ein System zur Prüfung und Annahme von Ausweisen sowie eine in
 | `/ausweis ansehen` | Zeigt den Ausweis eines Benutzers an. |
 | `/ausweis löschen` | Löscht einen bestehenden Ausweis. |
 | `/ausweis prüfen` | Öffnet das Annahmesystem für Prüfer. |
-| `/logs` | Zeigt System- oder Annahmelogs an. |
 
 ---
 
-## ⚙️ Logs & Annahmekanal
-- Alle Aktionen (z. B. Erstellung, Löschung, Annahme) werden im **Log-Kanal** protokolliert.  
-- Ein spezieller **Annahme-Kanal** dient der Verwaltung offener Ausweise.  
-  Dort können Prüfer über Buttons oder Reaktionen entscheiden, ob ein Ausweis angenommen oder abgelehnt wird.
+## ⚙️ Nutzung & Hosting
+Wenn du den Bot hostest:
+
+- Der Bot benötigt Zugriff auf die **Server-IP** und grundlegende **Statusdaten**, um Updates und Stabilität sicherzustellen.  
+  *(Diese Daten werden ausschließlich zur Verbesserung und Wartung genutzt und nicht an Dritte weitergegeben.)*  
+- Der Bot kann automatisch aktualisiert werden, um Kompatibilität und Sicherheit zu gewährleisten.  
+- Du darfst **keine Änderungen am Code** vornehmen, da offizielle Updates regelmäßig bereitgestellt werden.
+
+---
+
+## ⚠️ Nutzungsbedingungen
+- Der gesamte Code und dieses Repository bleiben **Eigentum von Hamburg PersoBot Development**.  
+- Es ist **nicht gestattet**, den Code oder Teile davon auf deinem **eigenen GitHub-Profil** oder auf anderen Plattformen zu veröffentlichen.  
+- Du darfst **keine Änderungen am Code oder an der Struktur** des Projekts vornehmen.  
+- Forks zu Lernzwecken sind erlaubt, dürfen aber **nicht öffentlich** oder **kommerziell genutzt** werden.
 
 ---
 
 ## 🧠 Technologien
-- Discord.js (Node.js)
-- SQLite oder MongoDB (je nach Setup)
-- Slash Commands
-- Event Logging System
+- **Python 3.10+**
+- **discord.py**
+- SQLite oder MongoDB
+- Lokales Log-System (`/logs`-Ordner)
 
 ---
 
-## 🔐 Lizenz
-Dieses Projekt ist **Open Source** und steht unter der [MIT-Lizenz](LICENSE).
+## 📦 Installation
 
----
-
-## 👥 Mitwirken
-Pull Requests, Bug Reports und Feature-Vorschläge sind jederzeit willkommen!  
-Erstelle einfach ein Issue oder sende einen PR auf GitHub.
-
----
-
-## 💬 Beispiel
+### 1. Repository klonen
 ```bash
-/user: /ausweis erstellen
-/bot: Bitte gib deinen Namen ein:
-...
-/bot: Dein Ausweis wurde erstellt und wartet auf Annahme.
+git clone https://github.com/deinusername/hamburg-persobot.git
+cd hamburg-persobot
