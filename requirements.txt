@@ -1,0 +1,6 @@
+discord.py
+aiofiles
+orjson
+cryptography
+requests
+httpx
